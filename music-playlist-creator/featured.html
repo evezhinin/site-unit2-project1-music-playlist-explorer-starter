@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Featured Playlist</title>
+    <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -21,27 +21,31 @@
     </header>
 
     <main> 
-        <section id="featured-playlist">
-            <div class="playlist-info">
-                
-                <h1 id="featured-playlist-name">Playlist Name</h1>
-                <img id="featured-img" src="#" alt="Playlist Cover">
-            </div>
-            <div class="playlist-songs">
-                <ul id="featured-songs-list">
 
-                </ul>
-            </div>
-        </section>
+        <div id="search-container">
+            <input type="text" id="search" placeholder="Search playlists by name...">
+        </div>
        
-  
+        <section class="playlist-cards" id="playlist-cards"></section>
+
+       
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalHeader"></h2>
+                <button type="button" id="shuffleButton">Shuffle</button>
+                <ul id="songList">
+                </ul>
+            </div> 
+        </div>
 
     </main>
 
     <footer>
+     
         <p>&copy; 2024 Music Playlist Explorer. All rights reserved.</p>
     </footer>
     <script src="data/data.js"></script>
-    <script src="featured.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
