@@ -61,11 +61,11 @@ The topics discussed in labs did prepare me in completing the assignment, such a
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-I would have made the navbar and footer responsive. 
+I would have made added more of the stretch features such as sorting, adding and deleting a playlist.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-The project demo went well, i was able to talk about all the features i included and the features that i was still working on. However, what did not go as planned was not demonstratign how all my features work, it was more telling about it than showing it. 
+The project demo went well, I was able to talk about all the features I included and the features that I was still working on. However, what did not go as planned was not demonstrating how all my features work, the presentation was basically me telling about the features than showing how it works. 
 
 ### Open-source libraries used
 
